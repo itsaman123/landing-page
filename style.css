@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=IBM+Plex+Serif:ital,wght@1,600&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:url("https://images.unsplash.com/photo-1659885785600-332531595893?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto ;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: white;
+    width: 40px;
+    cursor: pointer;
+
+}
+nav{
+    flex: 1;
+    padding-left:60px ;
+   
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color:rgb(30, 197, 41);
+}
+span{
+    color: rgb(114, 250, 130);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'IBM Plex Serif', serif;
+    /* font-family: 'Secular One', sans-serif; */
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgb(2, 253, 240);
+    font-family: 'IBM Plex Serif', serif;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgb(246, 247, 247);
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+.content{
+    margin: 1%;
+    padding: 1%;
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg,rgb(76, 128, 133),cyan);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+    box-shadow: 3px 2px white;
+}
